@@ -9,13 +9,11 @@
 ;;;;;;;;;;;;;;;;;;;;;;;
 ;; auto-complete mode
 ;;;;;;;;;;;;;;;;;;;;;;;
-;(add-to-list 'load-path "/Users/yuuichi/.emacs.d/site-lisp/auto-complete/")
 (add-to-list 'load-path "~/.emacs.d/site-lisp/auto-complete/")
 (require 'auto-complete)
 (require 'auto-complete-config)
 (global-auto-complete-mode t)
 (setq ac-dwim t)
-;(add-to-list 'ac-dictionary-directories "/Users/yuuichi/.emacs.d/site-lisp/auto-complete/ac-dict")
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/site-lisp/auto-complete/ac-dict")
 (ac-config-default)
 
