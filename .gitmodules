@@ -1,0 +1,12 @@
+[submodule "site-lisp/jedi/emacs-jedi"]
+	path = site-lisp/jedi/emacs-jedi
+	url = git://github.com/tkf/emacs-jedi
+[submodule "site-lisp/jedi/emacs-deferred"]
+	path = site-lisp/jedi/emacs-deferred
+	url = git://github.com/kiwanami/emacs-deferred
+[submodule "site-lisp/jedi/emacs-epc"]
+	path = site-lisp/jedi/emacs-epc
+	url = git://github.com/kiwanami/emacs-epc
+[submodule "site-lisp/jedi/emacs-ctable"]
+	path = site-lisp/jedi/emacs-ctable
+	url = git://github.com/kiwanami/emacs-ctable
