@@ -24,3 +24,6 @@
   (set-frame-parameter nil
                        'alpha 85
                        ) )
+
+;; view pdf file on emacs
+(require 'doc-view)

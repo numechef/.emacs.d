@@ -18,3 +18,6 @@
 
 ;; yatex
 (load-file "~/.emacs.d/yatex-settings.el")
+
+;; browser
+(load-file "~/.emacs.d/browser.el")

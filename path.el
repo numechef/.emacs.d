@@ -10,6 +10,7 @@
          "/Applications/MacPorts/Emacs.app/Contents/Resources/site-lisp"
 	 "~/.emacs.d"
 	 "~/.emacs.d/site-lisp"
+	 "~/.emacs.d/site-lisp/webkit"
          )
        load-path)
       )

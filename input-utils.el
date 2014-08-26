@@ -85,3 +85,17 @@
 ;(add-hook 'yatex-mode-hook)
 ;(add-hook 'yatex-mode-hook-func)
 (add-hook 'yatex-mode-hook 'yatex-mode-hook-func)
+
+;; for markdown
+(add-to-list 'load-path "~/.emacs.d/site-lisp/markdown-mode")
+(autoload 'markdown-mode "markdown-mode"
+   "Major mode for editing Markdown files" t)
+(add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; summarye.el (view function list) ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;(autoload 'se/make-summary-buffer "summarye" nil t)
+
