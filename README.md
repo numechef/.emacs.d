@@ -15,6 +15,25 @@ cf.
 sudo port install py27-epc py27-jedi
 ```
 
+Cloning
+-----------------------------
+
+Be careful to cloning. This repo. conflict with existing your `.emacs.d` settings.
+Before cloning, I recommand to backup your `.emacs.d` settings.
+
+```sh
+cd
+cp -r .emacs.d dot-emacs-old
+rm -rf .emacs.d
+```
+
+After the backup, you type following command.
+
+```sh
+cd
+git clone git://github.com/numechef/.emacs.d .emacs.d
+```
+
 set submodules after cloning
 -----------------------------
 

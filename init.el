@@ -1,6 +1,9 @@
 ;; loadpath
 (load-file "~/.emacs.d/path.el")
 
+;; install and package manager
+(load-file "~/.emacs.d/install.el")
+
 ;; language settings
 (load-file "~/.emacs.d/lang.el")
 
@@ -21,3 +24,6 @@
 
 ;; browser
 (load-file "~/.emacs.d/browser.el")
+
+;; edit support
+(load-file "~/.emacs.d/edit.el")
