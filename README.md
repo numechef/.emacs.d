@@ -34,6 +34,12 @@ cd
 git clone git://github.com/numechef/.emacs.d .emacs.d
 ```
 
+To create `.elc` files and make the load time fast, using the following command, byte-compile all `.el` files under the `~/.emacs.d` directory.
+
+```sh
+emacs --batch --eval '(byte-recompile-directory "~/.emacs.d")'
+```
+
 set submodules after cloning
 -----------------------------
 

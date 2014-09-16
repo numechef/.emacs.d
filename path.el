@@ -1,3 +1,9 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; emacs path settings                                                ;;
+;; author: numechef  Time-stamp: <Mon Sep 15 21:59:50 JST 2014>       ;;
+;; ( You should not write individual package path. )                  ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;; load path settings
 (setq load-path
       (append

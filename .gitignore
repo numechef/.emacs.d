@@ -1,3 +1,9 @@
 .DS_Store
 ac-comphist.dat
 auto-save-list/
+elpa/archives/melpa
+elpa/archives/marmalade
+elpa/archives/gnu
+*.elc
+*.~
+*.[ao]
