@@ -15,6 +15,9 @@
     ;;;; anything
     anything
 
+    ;;;; emacs code browser
+    ecb
+
     ;;;; buffer utils
     popwin elscreen yascroll buffer-move
 

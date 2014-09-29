@@ -1,6 +1,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; emacs initialization                                               ;;
-;; author: numechef  Time-stamp: <Tue Sep 16 18:09:24 JST 2014>       ;;
+;; author: numechef  Time-stamp: <Thu Sep 25 21:46:02 JST 2014>       ;;
 ;; ( You should write specifing settings to indivisual files. )       ;;
 ;;                                                                    ;;
 ;; * byte-compile all files under the `.emacs.d` by command line:     ;;
