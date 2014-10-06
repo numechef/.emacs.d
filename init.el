@@ -1,6 +1,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; emacs initialization                                               ;;
-;; author: numechef  Time-stamp: <Thu Sep 25 21:46:02 JST 2014>       ;;
+;; author: numechef  Time-stamp: <Mon Oct 06 17:21:48 JST 2014>       ;;
 ;; ( You should write specifing settings to indivisual files. )       ;;
 ;;                                                                    ;;
 ;; * byte-compile all files under the `.emacs.d` by command line:     ;;
@@ -12,6 +12,13 @@
 
 ;; install and package manager
 (load-file "~/.emacs.d/install.el")
+
+;; basic packages(long loading time)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; You must load this line at the first luanch.                ;;;;
+;;;; Always you comment-out this line, If you have done it once. ;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;(load-file "~/.emacs.d/install_packages.el")
 
 ;; language settings
 (load-file "~/.emacs.d/lang.el")

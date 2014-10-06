@@ -50,7 +50,11 @@ git submodule update --init --recursive
 
 ```
 
+installation at first luanch
+------------------------------
 
+You must uncooment the line which refer to `install_packages.el` in the `init.el` file when you first launch emacs.
+Always you can comment-out this line, if you have done it once.
 
 refresh `.elc`
 -----------------
