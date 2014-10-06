@@ -28,13 +28,7 @@
     go-mode
 
     ;;;; python
-    jedi
-
-    ;;;; helm
-    helm
-
-    ;;;; git
-    magit git-gutter
+    jedi py-autopep8
     ))
 
 ;; my/favorite-packagesからインストールしていないパッケージをインストール
