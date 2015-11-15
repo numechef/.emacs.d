@@ -14,7 +14,7 @@
          "/opt/local/share/emacs/site-lisp/apel"
          "/opt/local/share/emacs/23.1/site-lisp/emu"
          "/Applications/MacPorts/Emacs.app/Contents/Resources/site-lisp"
-	 "~/.emacs.d"
+;	 "~/.emacs.d"
 	 "~/.emacs.d/site-lisp"
 	 "~/.emacs.d/site-lisp/webkit"
          )
