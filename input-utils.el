@@ -2,8 +2,8 @@
 ;; mac key mode
 ;;;;;;;;;;;;;;;;;
 (require 'redo)
-(require 'mac-key-mode)
-(mac-key-mode 1)
+;(require 'mac-key-mode)
+;(mac-key-mode 1)
 ;(setq mac-command-modifier 'alt mac-option-modifier 'meta)
 
 ;;;;;;;;;;;;;;;;;;;;;;;
